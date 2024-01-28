@@ -229,7 +229,7 @@ background-color: rgb(88, 180, 251);
     }
 }
 
-@media (max-width: 481px){
+@media (min-width: 481px){
     .nav , .home{
         display: grid;
         text-align: center;
