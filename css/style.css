@@ -213,3 +213,104 @@ background-color: rgb(88, 180, 251);
 .btn{
     background-color: aliceblue;
 }
+
+@media (min-width: 900px){
+    .section p{
+        display: contents;
+    }
+    .section2{
+        margin-left: -55px;
+    }
+    .card{
+        padding-top: 70px;
+    }
+    .card p{
+        display: contents;
+    }
+}
+
+@media (max-width: 481px){
+    .nav , .home{
+        display: grid;
+        text-align: center;
+    }
+    .title{
+        margin-top: -90px;
+        margin-right: -65px;
+    }
+    .section1{
+        display: block;
+    }
+    .section h2{
+        margin-top: -30px;
+        margin-left: -76px;
+    }
+    .section p{
+        margin-top: -10px;
+    margin-left: -80px;
+    display: inline;
+    }
+    .card{
+        display: flex;
+    flex-direction: column;
+    }
+    .section2{
+        display: block;
+        margin-left: -30px;
+    }
+    .card h2{
+        margin-left: -145px;
+        margin-top: -15px;
+    }
+    .card p{
+        margin-top: -5px;
+    display: contents;
+    }
+    .form{
+        display: contents;
+    }
+}
+
+
+@media (max-width: 800px){
+    .nav , .home{
+        display: grid;
+        text-align: center;
+    }
+    .title{
+        margin-top: -90px;
+        margin-right: -65px;
+    }
+    .section1{
+        display: block;
+    }
+    .section h2{
+        margin-top: -30px;
+        /* margin-left: -76px; */
+    }
+    .section p{
+        margin-top: -10px;
+    margin-left: -80px;
+    display: inline;
+    }
+    .card{
+        display: flex;
+    flex-direction: column;
+    }
+    .section2{
+        display: block;
+        margin-left: -30px;
+    }
+    .card h2{
+        margin-left: -145px;
+        margin-top: -15px;
+    }
+    .card p{
+        margin-top: -5px;
+    display: contents;
+    }
+    .form{
+        display: contents;
+    }
+}
+
